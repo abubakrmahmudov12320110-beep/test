@@ -135,21 +135,25 @@ a:hover {
 
 .hero__container {
     margin-top: 40px;
-    margin-bottom: 120px;
+
 }
 
 .hero__item {
+    max-width: 1326px;
     display: flex;
     margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero__title {
-    margin-right: 1200px;
+    padding-left: 5px;
 }
 
 .hero__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 80px;
 }
 
 .hero__descr {
@@ -185,19 +189,22 @@ a:hover {
 
 .hero__link {
     border: solid 2px;
-    padding-right: 36px;
+    padding-right: 24px;
     padding-left: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
     display: flex;
     justify-content: space-between;
     border-radius: 24px;
+    gap: 10px;
 }
 
 .hero__link__4 {
     padding: 12px 24px;
     border: solid 1px;
     border-radius: 24px;
+    margin-left: 606px;
+
 }
 
 .hero__disk {
@@ -444,6 +451,7 @@ a:hover {
     border: 1px solid #D1D5DB;
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 .elon__disk {
@@ -456,6 +464,7 @@ a:hover {
 .elon__3 {
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 .elon__desk {
@@ -553,7 +562,7 @@ a:hover {
     display: flex;
     gap: 150px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #E5E7EB ;
+    border-bottom: 1px solid #E5E7EB;
 }
 
 .footer__text {
