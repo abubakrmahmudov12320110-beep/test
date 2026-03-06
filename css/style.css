@@ -135,7 +135,6 @@ a:hover {
 
 .hero__container {
     margin-top: 40px;
-
 }
 
 .hero__item {
@@ -293,6 +292,7 @@ a:hover {
     display: flex;
     padding: 24px 24px 24px 24px;
     border: 1px solid #D1D5DB;
+    border-radius: 10px;
 }
 
 .ihost__img {
@@ -340,6 +340,7 @@ a:hover {
     padding: 24px 24px;
     border: 1px solid #D1D5DB;
     margin-bottom: 16px;
+    border-radius: 10px;
 }
 
 .list__item {
